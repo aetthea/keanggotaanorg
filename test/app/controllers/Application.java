@@ -22,4 +22,8 @@ public class Application extends Controller {
     	render(myName);
     }
     
+    
+    public static void sum(Integer x, Integer y){
+    	System.out.println(x+y);
+    }
 }
